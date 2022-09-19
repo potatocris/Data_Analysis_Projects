@@ -1,9 +1,9 @@
 datetime
+streamlit
 pandas
 numpy
 tweepy
 yfinance
 plotly
-
 dateutil.relativedelta
 
