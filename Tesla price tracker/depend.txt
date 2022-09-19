@@ -1,0 +1,9 @@
+datetime
+pandas
+numpy
+tweepy
+yfinance
+plotly
+
+dateutil.relativedelta
+
