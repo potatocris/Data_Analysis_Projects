@@ -63,11 +63,15 @@ st.header(option)
 
 #TWITTER
 #twitter API
-consumer_key = 'ETZ4EvQANPkdQPXGVbvGDMz6l'
-consumer_secret = 'PEl1vEq7ZI5h4qMAorUH0NCBbz7e7eLjKMGdy0s2McsfK8Xype'
-bearer_token = 'AAAAAAAAAAAAAAAAAAAAADWXawEAAAAAgL8N5m73AVuacA6dDg6rhRUtLLM%3DA4gUobhlrJ2ltIl5LyXlK43ZkZyoRwRaOYsWWb9X9HotLllR8e'
-access_token = '1444621888249020417-OknnXDOjb6oRlIPjywE0TIO5QUtQTK'
-access_token_secret = 'PLG58Ah26Qrnfh9ObDItEXjJnEHrAfcNjlGRSBPE7QJr6'
+import yaml
+with open("api_key.yaml") as file:
+    twitter = yaml.safe_load(file)
+
+consumer_key = twitter["consumer_key"]
+consumer_secret = twitter["consumer_secret"]
+bearer_token = twitter["bearer_token"]
+access_token = twitter["access_token"]
+access_token_secret = twitter["access_token_secret"]
 
 auth = tweepy.OAuth1UserHandler(
         consumer_key, consumer_secret, access_token, access_token_secret
