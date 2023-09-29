@@ -1,0 +1,38 @@
+{
+  "2056542201": {
+    "property_type": "SingleFamilyResidence",
+    "address": "19800 SW 180th Ave #50506, Miami, FL 33187",
+    "floor_size": "1,690",
+    "floor_size_value_type": "QuantitativeValue",
+    "street_address": "19800 SW 180th Ave #50506",
+    "locality": "Miami",
+    "state": "FL",
+    "postal_code": "33187",
+    "latitude": 25.58159,
+    "longitude": -80.48648,
+    "selling_price": "$320,000",
+    "property_agency": "THE KEYES COMPANY",
+    "rooms": "4",
+    "baths": "2",
+    "area": "1,690",
+    "link": "https://www.zillow.com/homedetails/19800-SW-180th-Ave-50506-Miami-FL-33187/2056542201_zpid/"
+  },
+  "44213624": {
+    "property_type": "SingleFamilyResidence",
+    "address": "11322 SW 67th Ter, Miami, FL 33173",
+    "floor_size": "1,378",
+    "floor_size_value_type": "QuantitativeValue",
+    "street_address": "11322 SW 67th Ter",
+    "locality": "Miami",
+    "state": "FL",
+    "postal_code": "33173",
+    "latitude": 25.704891,
+    "longitude": -80.37695,
+    "selling_price": "$436,500",
+    "property_agency": "KASAS REALTY LLC",
+    "rooms": "3",
+    "baths": "2",
+    "area": "1,378",
+    "link": "https://www.zillow.com/homedetails/11322-SW-67th-Ter-Miami-FL-33173/44213624_zpid/"
+  }
+}
